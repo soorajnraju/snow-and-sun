@@ -1,0 +1,20 @@
+{
+    "name": "soorajnraju/snow-and-sun",
+    "version": "dev-master",
+    "type": "framework",
+    "description": "A wordpress plugin boiler plate",
+    "keywords": ["php","wordpress","plugin","framework"],
+    "homepage": "https://github.com/soorajnraju/snow-and-sun",
+    "license": "GPL-2.0+",
+    "authors": [
+        {
+            "name": "Sooraj N Raju",
+            "email": "soorajnraju@gmail.com",
+            "homepage": "https://soorajnraju.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    }
+}
