@@ -1,2 +1,2 @@
 # snow-and-sun
-A wordpress plugin boiler plate
+A wordpress plugin boilerplate with autoloader
