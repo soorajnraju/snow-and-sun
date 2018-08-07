@@ -2,7 +2,7 @@
     "name": "soorajnraju/snow-and-sun",
     "version": "dev-master",
     "type": "framework",
-    "description": "A wordpress plugin boiler plate",
+    "description": "A wordpress plugin boilerplate",
     "keywords": ["php","wordpress","plugin","framework"],
     "homepage": "https://github.com/soorajnraju/snow-and-sun",
     "license": "GPL-2.0+",
