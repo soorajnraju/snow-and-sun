@@ -16,7 +16,7 @@ class Loader{
         $length = strlen( __NAMESPACE__);
 
         if(strncmp($class, __NAMESPACE__, $length)!==0){
-            return;
+            return; //return to other registered autoloaders
         }
 
         $dir = explode('\\',$class );
