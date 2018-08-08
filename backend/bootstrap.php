@@ -11,7 +11,7 @@ class Bootstrap{
     }
 
     static function load_scripts(){
-        add_action('admin_enqueue_scripts', array(self::$instance, 'load_scripts_callback'));
+        \add_action('admin_enqueue_scripts', array(self::$instance, 'load_scripts_callback'));
     }
 
     function load_scripts_callback(){
