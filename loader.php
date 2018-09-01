@@ -23,14 +23,19 @@ class Loader{
         if($dir[0]==__NAMESPACE__){
             unset($dir[0]);
         }
+
         $file = constant('PLUGIN_PATH');
         foreach($dir as $d){
             $file.=$d.'/';
         }
-        $file = rtrim($file, '/');
+
+        $file = strtolower(rtrim($file, '/'));
         $file.='.php';
+
         if(file_exists($file)){
             require_once $file;
         }
+
     }
+    
 }

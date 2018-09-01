@@ -20,6 +20,9 @@ require 'loader.php';
 
 new Loader();
 
-add_action('plugins_loaded', array('Snow\Frontend\Bootstrap', 'init'));
-add_action('plugins_loaded', array('Snow\Backend\Bootstrap', 'init'));
+$frontend = new Frontend\Bootstrap();
+$backend = new Backend\Bootstrap();
+
+add_action('plugins_loaded', [$frontend, 'init']);
+add_action('plugins_loaded', [$backend, 'init']);
 
