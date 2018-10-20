@@ -8,6 +8,9 @@ class Bootstrap {
         if (is_admin()) {
             $this->load_scripts();
             if(isset($_GET['update_database']) && $_GET['update_database']=='true'){
+                /*
+                 * You can also hook into plugin activation hook
+                 */
                 $this->init_database();
             }
             $this->init_controllers();
@@ -25,15 +28,15 @@ class Bootstrap {
     }
     
     function init_database(){
-        //Instantiate your database tables
+        new \Snow\Backend\Modules\Database\Hello_World();
     }
     
     function init_controllers(){
-        //Instantiate your controllers of logic
+         new \Snow\Backend\Modules\Controllers\Hello_World();
     }
     
     function init_pages(){
-        //Instantiate your pages of views
+        new \Snow\Backend\Modules\Pages\Hello_World();
     }
 
 }
