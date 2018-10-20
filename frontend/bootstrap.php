@@ -13,8 +13,8 @@ class Bootstrap{
     }
 
     function load_scripts_callback(){
-        \wp_enqueue_script(PLUGIN_NAME, \plugins_url(PLUGIN_NAME.'/frontend/js/script.js'));
-        \wp_enqueue_style(PLUGIN_NAME, \plugins_url(PLUGIN_NAME.'/frontend/css/style.css'));
+        \wp_enqueue_script(PLUGIN_NAME, \plugins_url(PLUGIN_NAME.'/frontend/assets/js/script.js'));
+        \wp_enqueue_style(PLUGIN_NAME, \plugins_url(PLUGIN_NAME.'/frontend/assets/css/style.css'));
     }
 
 }
