@@ -10,7 +10,7 @@ namespace Snow\Backend\Modules\Models;
 
 class Hello_World {
     
-    static $table = TABLE_PREFIX.'hello'; 
+    const TABLE = TABLE_PREFIX.'hello'; 
 
     public function insert($data){
         global $wpdb;
