@@ -17,10 +17,9 @@ define('PLUGIN_PATH', plugin_dir_path( __FILE__));
 define('PLUGIN_NAME', 'snow-and-sun');
 
 require 'loader.php';
+new Loader();
 require 'global/constants.php';
 require 'global/functions.php';
-
-new Loader();
 
 $frontend = new Frontend\Bootstrap();
 $backend = new Backend\Bootstrap();
