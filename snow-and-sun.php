@@ -3,7 +3,7 @@
 * Plugin Name:       snow-and-sun
 * Plugin URI:        https://soorajnraju.com/plugin/snow-and-sun
 * Description:       A wordpress plugin boilerplate
-* Version:           1.0.0
+* Version:           1.2
 * Author:            Sooraj N Raju
 * Author URI:        https://soorajnraju.com/
 * License:           GPL-2.0+
