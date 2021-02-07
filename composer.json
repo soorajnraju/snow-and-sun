@@ -1,7 +1,7 @@
 {
     "name": "soorajnraju/snow-and-sun",
-    "version": "1.1",
-    "type": "framework",
+    "version": "1.2",
+    "type": "boilerplate",
     "description": "A wordpress plugin boilerplate",
     "keywords": ["php","wordpress","plugin","framework"],
     "homepage": "https://github.com/soorajnraju/snow-and-sun",
