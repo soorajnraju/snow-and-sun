@@ -16,7 +16,7 @@ defined('ABSPATH') or exit('Direct access is not allowed');
 define('PLUGIN_PATH', plugin_dir_path( __FILE__));
 define('PLUGIN_NAME', 'snow-and-sun');
 
-require 'inc/vendor/autoload.php';
+require 'vendor/autoload.php';
 require 'loader.php';
 new Loader();
 require 'global/constants.php';
